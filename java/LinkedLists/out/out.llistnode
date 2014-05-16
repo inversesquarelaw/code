@@ -1,0 +1,170 @@
+
+List elements: 9 8 7 6 5 4 3 2 1 0 
+# of nodes: 10
+List is empty: false
+
+Removing nodes from tail...
+
+java.util.NoSuchElementException: List is empty!
+
+List elements: 
+# of nodes: 0
+List is empty: true
+
+
+List elements: 100 101 102 103 104 105 106 107 108 109 
+# of nodes: 10
+List is empty: false
+
+Removing nodes from head...
+
+
+List elements: 
+# of nodes: 0
+List is empty: true
+
+
+List elements: 100 101 102 103 104 105 106 107 108 109 
+# of nodes: 10
+List is empty: false
+
+Removed node: 105
+
+List elements: 100 101 102 103 104 106 107 108 109 
+# of nodes: 9
+List is empty: false
+
+Removed node: 100
+
+List elements: 101 102 103 104 106 107 108 109 
+# of nodes: 8
+List is empty: false
+
+Removed node: 109
+
+List elements: 101 102 103 104 106 107 108 
+# of nodes: 7
+List is empty: false
+
+Removed node: 108
+
+List elements: 101 102 103 104 106 107 
+# of nodes: 6
+List is empty: false
+
+Removed node: 107
+
+List elements: 101 102 103 104 106 
+# of nodes: 5
+List is empty: false
+
+Removed node: 106
+
+List elements: 101 102 103 104 
+# of nodes: 4
+List is empty: false
+
+Removed node: 104
+
+List elements: 101 102 103 
+# of nodes: 3
+List is empty: false
+
+Removed node: 103
+
+List elements: 101 102 
+# of nodes: 2
+List is empty: false
+
+Removed node: 102
+
+List elements: 101 
+# of nodes: 1
+List is empty: false
+
+Removed node: 101
+
+List elements: 
+# of nodes: 0
+List is empty: true
+
+
+List elements: 100 101 102 103 104 105 106 107 108 109 
+# of nodes: 10
+List is empty: false
+
+Removed node: 104
+
+List elements: 100 101 102 103 105 106 107 108 109 
+# of nodes: 9
+List is empty: false
+
+Removed node: 100
+
+List elements: 101 102 103 105 106 107 108 109 
+# of nodes: 8
+List is empty: false
+
+Removed node: 102
+
+List elements: 101 103 105 106 107 108 109 
+# of nodes: 7
+List is empty: false
+
+Removed node: 106
+
+List elements: 101 103 105 107 108 109 
+# of nodes: 6
+List is empty: false
+
+Removed node: 108
+
+List elements: 101 103 105 107 109 
+# of nodes: 5
+List is empty: false
+
+Removed node: 101
+
+List elements: 103 105 107 109 
+# of nodes: 4
+List is empty: false
+
+Removed node: 103
+
+List elements: 105 107 109 
+# of nodes: 3
+List is empty: false
+
+Removed node: 105
+
+List elements: 107 109 
+# of nodes: 2
+List is empty: false
+
+Removed node: 107
+
+List elements: 109 
+# of nodes: 1
+List is empty: false
+
+Removed node: 109
+
+List elements: 
+# of nodes: 0
+List is empty: true
+
+
+List elements: 100 101 102 103 104 105 106 107 108 109 
+# of nodes: 10
+List is empty: false
+
+
+List elements: 100 -1 101 102 103 104 105 106 107 108 109 
+# of nodes: 11
+List is empty: false
+
+
+List elements: 100 -1 101 102 103 104 105 106 107 108 109 -1 
+# of nodes: 12
+List is empty: false
+

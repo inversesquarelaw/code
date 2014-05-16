@@ -1,0 +1,228 @@
+Current items using iterator: 
+List: [ ]
+
+Creating new list
+List: [ ]
+Size/N: 0
+a.length: 1
+Empty: true
+
+Inserting before head
+List: [ 104 103 102 101 100 ]
+Size/N: 5
+a.length: 8
+Empty: false
+
+Current items using iterator: 
+List: [ 104 103 102 101 100 ]
+
+Inserting after tail
+List: [ 104 103 102 101 100 ]
+Size/N: 5
+a.length: 8
+Empty: false
+
+Inserting after tail
+List: [ 104 103 102 101 100 200 ]
+Size/N: 6
+a.length: 8
+Empty: false
+
+Inserting after tail
+List: [ 104 103 102 101 100 200 201 ]
+Size/N: 7
+a.length: 8
+Empty: false
+
+Inserting after tail
+List: [ 104 103 102 101 100 200 201 202 ]
+Size/N: 8
+a.length: 8
+Empty: false
+
+Inserting after tail
+List: [ 104 103 102 101 100 200 201 202 203 ]
+Size/N: 9
+a.length: 16
+Empty: false
+
+List: [ 104 103 102 101 100 200 201 202 203 204 ]
+Size/N: 10
+a.length: 16
+Empty: false
+
+Inserting at 5
+List: [ 104 103 102 101 100 999 200 201 202 203 204 ]
+Size/N: 11
+a.length: 16
+Empty: false
+
+Inserting at 6
+List: [ 104 103 102 101 100 888 999 200 201 202 203 204 ]
+Size/N: 12
+a.length: 16
+Empty: false
+
+Inserting at 6
+List: [ 104 103 102 101 100 888 777 999 200 201 202 203 204 ]
+Size/N: 13
+a.length: 16
+Empty: false
+
+Inserting at 14
+List: [ 104 103 102 101 100 888 777 999 200 201 202 203 204 666 ]
+Size/N: 14
+a.length: 16
+Empty: false
+
+Inserting after tail
+List: [ 104 103 102 101 100 888 777 999 200 201 202 203 204 666 ]
+Size/N: 14
+a.length: 16
+Empty: false
+
+Inserting after tail
+List: [ 104 103 102 101 100 888 777 999 200 201 202 203 204 666 300 ]
+Size/N: 15
+a.length: 16
+Empty: false
+
+Inserting after tail
+List: [ 104 103 102 101 100 888 777 999 200 201 202 203 204 666 300 301 ]
+Size/N: 16
+a.length: 16
+Empty: false
+
+Inserting after tail
+List: [ 104 103 102 101 100 888 777 999 200 201 202 203 204 666 300 301 302 ]
+Size/N: 17
+a.length: 32
+Empty: false
+
+List: [ 104 103 102 101 100 888 777 999 200 201 202 203 204 666 300 301 302 303 ]
+Size/N: 18
+a.length: 32
+Empty: false
+
+Current items using iterator: 
+List: [ 104 103 102 101 100 888 777 999 200 201 202 203 204 666 300 301 302 303 ]
+
+Removing 303
+Removed: true
+List: [ 104 103 102 101 100 888 777 999 200 201 202 203 204 666 300 301 302 ]
+Size/N: 17
+a.length: 32
+Empty: false
+
+Removing 999
+Removed: true
+List: [ 104 103 102 101 100 888 777 200 201 202 203 204 666 300 301 302 ]
+Size/N: 16
+a.length: 32
+Empty: false
+
+Removing 888
+Removed: true
+List: [ 104 103 102 101 100 777 200 201 202 203 204 666 300 301 302 ]
+Size/N: 15
+a.length: 32
+Empty: false
+
+Removing 104
+Removed: true
+List: [ 103 102 101 100 777 200 201 202 203 204 666 300 301 302 ]
+Size/N: 14
+a.length: 32
+Empty: false
+
+Removing 302
+Removed: true
+List: [ 103 102 101 100 777 200 201 202 203 204 666 300 301 ]
+Size/N: 13
+a.length: 32
+Empty: false
+
+Removing 301
+List: [ 103 102 101 100 777 200 201 202 203 204 666 300 ]
+Size/N: 12
+a.length: 32
+Empty: false
+
+Removing 103
+List: [ 102 101 100 777 200 201 202 203 204 666 300 ]
+Size/N: 11
+a.length: 32
+Empty: false
+
+Current items using iterator: 
+List: [ 102 101 100 777 200 201 202 203 204 666 300 ]
+
+Removing 201 at index 5
+List: [ 102 101 100 777 200 202 203 204 666 300 ]
+Size/N: 10
+a.length: 32
+Empty: false
+
+Removing head
+List: [ 101 100 777 200 202 203 204 666 300 ]
+Size/N: 9
+a.length: 32
+Empty: false
+
+Removing head
+List: [ 100 777 200 202 203 204 666 300 ]
+Size/N: 8
+a.length: 16
+Empty: false
+
+Removing head
+List: [ 777 200 202 203 204 666 300 ]
+Size/N: 7
+a.length: 16
+Empty: false
+
+Removing head
+List: [ 200 202 203 204 666 300 ]
+Size/N: 6
+a.length: 16
+Empty: false
+
+Removing head
+List: [ 202 203 204 666 300 ]
+Size/N: 5
+a.length: 16
+Empty: false
+
+Removing head
+List: [ 203 204 666 300 ]
+Size/N: 4
+a.length: 8
+Empty: false
+
+Removing head
+List: [ 204 666 300 ]
+Size/N: 3
+a.length: 8
+Empty: false
+
+Removing head
+List: [ 666 300 ]
+Size/N: 2
+a.length: 4
+Empty: false
+
+Removing head
+List: [ 300 ]
+Size/N: 1
+a.length: 2
+Empty: false
+
+Removing head
+List: [ ]
+Size/N: 0
+a.length: 2
+Empty: true
+
+Current items using iterator: 
+List: [ ]
+

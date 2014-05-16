@@ -1,0 +1,13 @@
+CC=gcc
+CFLAGS=-I.
+DEPS = 
+OBJ = revrecursion.o
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+revrecursion: $(OBJ)
+	gcc -o $@ $^ $(CFLAGS)
+
+clean:
+	rm -f *.o *~ core revrecursion
