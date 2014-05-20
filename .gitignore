@@ -1,1 +1,14 @@
 /out/
+diveintopython/
+princeton/
+usaco/
+practice/
+startup/
+java/
+c/
+python/
+startup/
+/*.o
+/*.class
+/*.pyc
+/*.txt
