@@ -1,0 +1,5 @@
+euler
+=====
+
+project euler practice
+
